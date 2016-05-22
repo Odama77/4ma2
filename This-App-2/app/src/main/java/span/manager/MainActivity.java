@@ -28,7 +28,6 @@ import java.util.HashSet;
 import java.util.List;
 
 //import org.apache.http.conn.util.InetAddressUtils;
-import span.R;
 import span.service.ManetObserver;
 import span.service.core.ManetService.AdhocStateEnum;
 import span.service.legal.EulaHelper;
@@ -71,6 +70,8 @@ import android.widget.RelativeLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.amadolpeamallen.this_app.R;
 
 public class MainActivity extends Activity implements EulaObserver, ManetObserver {
 	

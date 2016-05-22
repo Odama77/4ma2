@@ -11,7 +11,6 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
-import span.R;
 import span.service.ManetObserver;
 import span.service.core.ManetService.AdhocStateEnum;
 import span.service.routing.Node;
@@ -29,6 +28,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+
+import com.example.amadolpeamallen.this_app.R;
 
 public class SendMessageActivity extends Activity implements OnItemSelectedListener, ManetObserver {
 	

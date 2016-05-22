@@ -7,8 +7,6 @@ package span.manager;
 import java.sql.Timestamp;
 import java.util.Calendar;
 
-import span.R;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,6 +17,8 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ScrollView;
 import android.widget.TextView;
+
+import com.example.amadolpeamallen.this_app.R;
 
 public class ViewLogActivity extends Activity {
 	

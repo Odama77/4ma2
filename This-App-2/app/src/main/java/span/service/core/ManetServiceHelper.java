@@ -30,7 +30,7 @@ import java.util.HashSet;
 import java.util.Hashtable;
 import java.util.List;
 
-import span.R;
+//import R;
 import span.service.core.ManetService.AdhocStateEnum;
 import span.service.routing.Node;
 import span.service.routing.OlsrProtocol;
@@ -65,6 +65,8 @@ import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.util.Log;
 import android.widget.Toast;
+
+import com.example.amadolpeamallen.this_app.R;
 
 public class ManetServiceHelper {
 		

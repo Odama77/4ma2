@@ -21,13 +21,13 @@
  */
 package span.manager;
 
-import span.R;
-
 import android.graphics.Color;
 import android.preference.EditTextPreference;
 import android.preference.Preference;
 import android.text.Editable;
 import android.text.TextWatcher;
+
+import com.example.amadolpeamallen.this_app.R;
 
 public class Validation {
 	

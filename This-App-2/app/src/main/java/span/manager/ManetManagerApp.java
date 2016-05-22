@@ -47,6 +47,8 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Toast;
 
+import com.example.amadolpeamallen.this_app.R;
+
 public class ManetManagerApp extends Application implements ManetObserver {
 
 	public static final String TAG = "ManetManagerApp";

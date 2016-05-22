@@ -28,7 +28,6 @@ import java.util.TreeMap;
 
 import org.json.JSONArray;
 import org.json.JSONException;
-import span.R;
 import span.service.core.ManetService.AdhocStateEnum;
 import span.service.system.CoreTask;
 import span.service.system.DeviceConfig;
@@ -58,6 +57,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.amadolpeamallen.this_app.R;
 
 public class ChangeSettingsActivity extends PreferenceActivity implements OnSharedPreferenceChangeListener {
 		

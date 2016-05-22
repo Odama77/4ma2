@@ -7,7 +7,6 @@ package span.manager;
 import java.util.HashSet;
 import java.util.TreeSet;
 
-import span.R;
 import span.service.ManetObserver;
 import span.service.core.ManetService.AdhocStateEnum;
 import span.service.routing.Node;
@@ -22,6 +21,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.amadolpeamallen.this_app.R;
 
 public class ViewRoutingInfoActivity extends Activity implements ManetObserver {
 	

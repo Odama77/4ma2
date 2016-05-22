@@ -4,7 +4,7 @@
  */
 package span.service.core;
 
-import span.R;
+//import span.R;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -17,6 +17,8 @@ import android.os.IBinder;
 import android.os.Message;
 import android.os.Messenger;
 import android.util.Log;
+
+import com.example.amadolpeamallen.this_app.R;
 
 public class ManetService extends Service {
 
@@ -146,7 +148,7 @@ public class ManetService extends Service {
     	}
 
     	// set the info for the views that show in the notification panel    
-    	notification.setLatestEventInfo(this, "MANET Service", content, pendingIntent);
+//    	notification.setLatestEventInfo(this, "MANET Service", content, pendingIntent);    ESTO LO MODIFIQUE YO
     	
     	// send the notification        
     	notificationManager.notify(NOTIFICATION_ID, notification);

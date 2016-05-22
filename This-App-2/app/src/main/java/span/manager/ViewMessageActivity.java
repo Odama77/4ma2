@@ -4,8 +4,6 @@
  */
 package span.manager;
 
-import span.R;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,6 +11,8 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.amadolpeamallen.this_app.R;
 
 public class ViewMessageActivity extends Activity {
 	

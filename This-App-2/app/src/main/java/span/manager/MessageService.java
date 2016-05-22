@@ -7,8 +7,6 @@ package span.manager;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 
-import span.R;
-
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -16,6 +14,8 @@ import android.app.Service;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.IBinder;
+
+import com.example.amadolpeamallen.this_app.R;
 
 public class MessageService extends Service {
 	
@@ -98,7 +98,7 @@ public class MessageService extends Service {
     	// notification.defaults |= Notification.DEFAULT_VIBRATE; // DEBUG
 
     	// set the info for the views that show in the notification panel    
-    	notification.setLatestEventInfo(this, "Wireless AdHoc", tickerStr, pendingIntent);
+    	//notification.setLatestEventInfo(this, "Wireless AdHoc", tickerStr, pendingIntent);      ESTO LO QUITE YO
     	
     	// NOTE: Use a unique notification id, otherwise an existing notification with the same id will be replaced.
     	

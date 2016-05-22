@@ -9,7 +9,6 @@ import java.util.List;
 
 import org.json.JSONArray;
 import org.json.JSONException;
-import span.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -24,6 +23,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+
+import com.example.amadolpeamallen.this_app.R;
 
 public class EditIgnoreListActivity extends PreferenceActivity {
 	

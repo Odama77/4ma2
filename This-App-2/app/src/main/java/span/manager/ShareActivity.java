@@ -26,7 +26,6 @@ import java.io.IOException;
 
 import servalproject.SimpleWebServer;
 import servalproject.system.WiFiRadio;
-import span.R;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -39,6 +38,8 @@ import android.view.animation.ScaleAnimation;
 import android.widget.ImageView;
 import android.widget.TableRow;
 import android.widget.TextView;
+
+import com.example.amadolpeamallen.this_app.R;
 
 public class ShareActivity extends Activity {
 	
